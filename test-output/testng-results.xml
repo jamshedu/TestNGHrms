@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="22399" started-at="2020-06-05T19:02:24 PDT" finished-at="2020-06-05T19:02:47 PDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="22399" started-at="2020-06-05T19:02:24 PDT" finished-at="2020-06-05T19:02:47 PDT">
+      <class name="com.class0_1.LoginTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.class0_1.LoginTest@4d41cee]" name="setUp" is-config="true" duration-ms="3248" started-at="2020-06-05T19:02:24 PDT" finished-at="2020-06-05T19:02:28 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.class0_1.LoginTest@4d41cee]" name="validLogin" duration-ms="16934" started-at="2020-06-05T19:02:28 PDT" data-provider="userData" finished-at="2020-06-05T19:02:45 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Raj]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Capoor]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[raj1237]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[AmirKhan_@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.class0_1.LoginTest@4d41cee]" name="tearDown" is-config="true" duration-ms="2159" started-at="2020-06-05T19:02:45 PDT" finished-at="2020-06-05T19:02:47 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.class0_1.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
